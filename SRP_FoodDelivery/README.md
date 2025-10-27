@@ -1,13 +1,45 @@
-# 🍕 SRP – Single Responsibility Principle (Java Example)
+# 🧩 Single Responsibility Principle (SRP) – Java Example
 
-### 💡 Principle:
-A class should have **only one reason to change**, meaning it should handle **only one responsibility**.
+## 💡 What is SRP?
+The **Single Responsibility Principle** states that *a class should have only one reason to change*, meaning it should have just one job or responsibility.
+
+In simple terms — **one class = one purpose**.
 
 ---
 
-## 🚫 Violating Code Example
+## 🚫 SRP Violating Example
+In the violating version, a single class handles:
+- Order creation  
+- Payment processing  
+- Notification sending  
 
-**File:** `SRPViolation.java`
+This creates **tight coupling**, makes the code **hard to maintain**, and **reduces flexibility**.
 
-In this version, **one class handles multiple responsibilities** — order creation, payment processing, and notification sending.
+---
 
+## ✅ Correct SRP Implementation
+In the corrected version, each class has a **clear, single responsibility**:
+- `Order` → Manages order details  
+- `PaymentProcessor` → Handles payments  
+- `NotificationService` → Sends notifications  
+- `SRPCorrectExample` → Coordinates the workflow  
+
+---
+
+## ⚙️ Benefits of Applying SRP
+- Easier to **maintain and test**  
+- **Reusable** classes across projects  
+- **Scalable** for adding new features  
+- **Improves readability** and teamwork  
+
+---
+
+## 🏢 Real-World Analogy
+Think of a restaurant:
+- The **chef** cooks the food (like `Order`)  
+- The **cashier** manages payments (`PaymentProcessor`)  
+- The **waiter** handles communication (`NotificationService`)  
+
+Each person has **one clear role**, which keeps things organized and efficient.
+
+---
