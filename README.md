@@ -21,29 +21,66 @@ Each principle focuses on improving software design, reducing coupling, and maki
 | **I** | Interface Segregation Principle | Clients shouldn’t depend on unused methods | Smart device interfaces |
 | **D** | Dependency Inversion Principle | Depend on abstractions, not on concretes | Notification service with dependency injection |
 
+
 ---
 
-## 🏗️ Folder Structure
+## ⚙️ Tools & Technologies
+- **Language:** Java  
+- **IDE:** IntelliJ IDEA / VS Code / Eclipse  
+- **Concepts:** OOP, Abstraction, Encapsulation, Inheritance, Polymorphism  
 
-📦 SOLID_Principles_Java
-┣ 📂 SRP
-┃ ┣ 📜 SRPViolation.java
-┃ ┣ 📜 SRPCorrectExample.java
-┃ ┗ 📜 README.md
-┣ 📂 OCP
-┃ ┣ 📜 OCPViolation.java
-┃ ┣ 📜 OCPCorrectExample.java
-┃ ┗ 📜 README.md
-┣ 📂 LSP
-┃ ┣ 📜 LSPViolation.java
-┃ ┣ 📜 LSPCorrectExample.java
-┃ ┗ 📜 README.md
-┣ 📂 ISP
-┃ ┣ 📜 ISPViolation.java
-┃ ┣ 📜 ISPCorrectExample.java
-┃ ┗ 📜 README.md
-┣ 📂 DIP
-┃ ┣ 📜 DIPViolation.java
-┃ ┣ 📜 DIPCorrectExample.java
-┃ ┗ 📜 README.md
-┗ 📜 README.md
+---
+
+## 🧠 Why SOLID Matters
+
+- Encourages **clean architecture**
+- Makes code **easy to maintain**
+- Enables **scalability** and **reuse**
+- Reduces **tight coupling**
+- Improves **testing and debugging**
+
+---
+
+## 🌍 Real-World Mapping
+
+| Principle | Real-World Analogy |
+|------------|--------------------|
+| **SRP** | Chef cooks, cashier handles payments — each role has one task |
+| **OCP** | Adding new payment types without changing existing logic |
+| **LSP** | Replacing petrol car with electric car — behavior remains valid |
+| **ISP** | TV remote vs. Universal remote — each has only relevant buttons |
+| **DIP** | Depending on a plug socket interface, not a specific device |
+
+---
+
+---
+
+## 🧾 Learning Outcome
+
+By exploring each folder, you’ll:
+- Understand **how to identify violations**
+- Learn **how to refactor code**
+- Gain **hands-on design experience**
+- Build a **strong portfolio project** for interviews
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/yourusername/SOLID_Principles_Java.git
+
+2. Open in your IDE
+
+3. Run each example from its respective folder
+
+---
+
+## ✨ Author
+
+Priya Dharshini S
+💻 Passionate Java Developer | Building Clean & Scalable Software
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/priya-dharshini-s29/)
+
+---
