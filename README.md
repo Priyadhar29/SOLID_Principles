@@ -53,8 +53,6 @@ Each principle focuses on improving software design, reducing coupling, and maki
 
 ---
 
----
-
 ## 🧾 Learning Outcome
 
 By exploring each folder, you’ll:
