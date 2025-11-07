@@ -54,11 +54,11 @@ Each principle focuses on improving software design, reducing coupling, and maki
 ---
 ## 🔗 Related SOLID Principles
 
-[Single Responsibility Principle (SRP)]()
+[Single Responsibility Principle (SRP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/SRP_FoodDelivery)
 
-[Open / Closed Principle (OCP)]()
+[Open / Closed Principle (OCP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/OCP_NotificationSystem)
 
-[Liskov Substitution Principle (LSP)]()
+[Liskov Substitution Principle (LSP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/LSP_PaymentGateway)
 
 [Interface Segregation Principle (ISP)]()
 
