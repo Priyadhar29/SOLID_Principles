@@ -9,8 +9,8 @@ This means you should be able to **add new functionality** without **changing ex
 ---
 
 ## 💡 Real-World Scenario: Notification System  
-Imagine a company’s system that sends notifications via **Email**, **SMS**, or **WhatsApp**.  
 
+Imagine a company’s system that sends notifications via **Email**, **SMS**, or **WhatsApp**.  
 Instead of editing the same class every time we add a new notification type, we can simply **extend the system** using interfaces and new implementations.
 
 ---
@@ -29,9 +29,6 @@ Your order has been shipped! -> sent via Email
 Your OTP is 123456 -> sent via SMS
 Meeting at 10 AM tomorrow -> sent via WhatsApp
 
----
-
-
 You can add a new notifier (e.g., PushNotification) **without touching existing code** — just implement the `Notifier` interface.
 
 ---
@@ -41,26 +38,16 @@ You can add a new notifier (e.g., PushNotification) **without touching existing 
 In the violating version, every new notification type requires modifying the same class:  
 
      ```java
-  class NotificationService {
+    class NotificationService {
     void notifyUser(String type, String message) {
         if(type.equals("EMAIL")) { ... }
         else if(type.equals("SMS")) { ... }
         else if(type.equals("WHATSAPP")) { ... }
     }
-  }
+    }
 
 This approach breaks OCP because adding a new type (like PushNotification) means editing this class again, risking errors and making maintenance harder.
 
----
-
-## 🧩 Key Takeaways
-
-| Concept|	Correct Implementation	| Violating Implementation
-|---------------------------------------------------------------
-|Extensibility	| Add new classes easily	| Modify existing code each time
-|Maintainability	| Safe and modular	|Risk of introducing bugs
-|Dependency	| On abstraction (Notifier) |	On concrete logic
-------------------------------------------------------------------
 ---
 
 ## 📊 UML Diagram Suggestion
