@@ -54,12 +54,12 @@ This approach breaks OCP because adding a new type (like PushNotification) means
 ---
 
 ## 🧩 Key Takeaways
-------------------------------------------------------------
-Concept|	Correct Implementation	| Violating Implementation
----------------------------------------------------------------
-Extensibility	| Add new classes easily	| Modify existing code each time
-Maintainability	| Safe and modular	|Risk of introducing bugs
-Dependency	| On abstraction (Notifier) |	On concrete logic
+
+| Concept|	Correct Implementation	| Violating Implementation
+|---------------------------------------------------------------
+|Extensibility	| Add new classes easily	| Modify existing code each time
+|Maintainability	| Safe and modular	|Risk of introducing bugs
+|Dependency	| On abstraction (Notifier) |	On concrete logic
 ------------------------------------------------------------------
 ---
 
@@ -83,13 +83,13 @@ Each concrete class → implements → Notifier
 
 ## 🔗 Related SOLID Principles
 
-Single Responsibility Principle (SRP)
+[Single Responsibility Principle (SRP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/SRP_FoodDelivery)
 
-Liskov Substitution Principle (LSP)
+[Liskov Substitution Principle (LSP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/LSP_PaymentGateway)
 
-Interface Segregation Principle (ISP)
+[Interface Segregation Principle (ISP)]()
 
-Dependency Inversion Principle (DIP)
+[Dependency Inversion Principle (DIP)]()
 
 ---
 
