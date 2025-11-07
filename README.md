@@ -52,6 +52,19 @@ Each principle focuses on improving software design, reducing coupling, and maki
 | **DIP** | Depending on a plug socket interface, not a specific device |
 
 ---
+## 🔗 Related SOLID Principles
+
+[Single Responsibility Principle (SRP)]()
+
+[Open / Closed Principle (OCP)]()
+
+[Liskov Substitution Principle (LSP)]()
+
+[Interface Segregation Principle (ISP)]()
+
+[Dependency Inversion Principle (DIP)]()
+
+---
 
 ## 🧾 Learning Outcome
 
