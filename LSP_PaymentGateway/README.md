@@ -39,14 +39,14 @@ Here, both subclasses behave as expected — no special conditions or broken log
 A bad implementation might look like this:
     
     ```java
-      class GiftCardPayment extends Payment {
-           void pay(double amount) {
-        if (amount > 500) {
-            throw new UnsupportedOperationException("Gift Card cannot process payments above ₹500");
+    class GiftCardPayment extends Payment {
+        void pay(double amount) {
+            if (amount > 500) {
+                throw new UnsupportedOperationException("Gift Card cannot process payments above ₹500");
+            }
+            System.out.println("Paid ₹" + amount + " using Gift Card");
         }
-          System.out.println("Paid ₹" + amount + " using Gift Card");
-          }
-          }
+     }
 
 When this class replaces Payment in your program, it breaks the flow (throws exceptions, adds restrictions) — violating LSP.
 
