@@ -67,6 +67,24 @@ Each principle focuses on improving software design, reducing coupling, and maki
 
 ---
 
+
+---
+
+## 💳 Mini Project — Smart Payment System  
+
+### 🧾 Description  
+A **console-based interactive Java application** that applies **all SOLID principles** to build a clean, modular, and extensible **Payment Gateway**.
+
+### 🧱 Key Features  
+- User input for transaction ID and amount  
+- Multiple payment methods: **Credit Card, UPI, Wallet**  
+- Multiple notification modes: **Email, SMS**  
+- Follows **SRP, OCP, LSP, ISP, and DIP**  
+- Uses **Dependency Injection** for flexibility  
+- Fully **OOP-based** and **extensible**
+
+---
+
 ## 🧾 Learning Outcome
 
 By exploring each folder, you’ll:
