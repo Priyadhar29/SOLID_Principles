@@ -74,11 +74,11 @@ Each concrete class → extends → Payment
 
 [Single Responsibility Principle (SRP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/SRP_FoodDelivery)
 
-[Open/Closed Principle (OCP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/OCP_NotificationSystem)
+[Open / Closed Principle (OCP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/OCP_NotificationSystem)
 
-[Interface Segregation Principle (ISP)]()
+[Interface Segregation Principle (ISP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/ISP_SmartHomeDevices)
 
-[Dependency Inversion Principle (DIP)]()
+[Dependency Inversion Principle (DIP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/DIP_LoggingSystem)
 
 ---
 
