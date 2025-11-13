@@ -116,7 +116,7 @@ Dependencies like payment method and notification type are **injected dynamicall
 ---
 
 ## 🔗 Related Individual SOLID Modules  
-- [SRP - Order Management](../SRP_OrderManagement/README.md)  
+- [SRP - Food Delivery](../SRP_FoodDelivery/README.md)  
 - [OCP - Notification System](../OCP_NotificationSystem/README.md)  
 - [LSP - Payment Gateway](../LSP_PaymentGateway/README.md)  
 - [ISP - Smart Home Devices](../ISP_SmartHomeDevices/README.md)  
