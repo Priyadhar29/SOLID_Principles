@@ -52,6 +52,7 @@ Each principle focuses on improving software design, reducing coupling, and maki
 | **DIP** | Depending on a plug socket interface, not a specific device |
 
 ---
+
 ## 🔗 Related SOLID Principles
 
 [Single Responsibility Principle (SRP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/SRP_FoodDelivery)
@@ -60,9 +61,9 @@ Each principle focuses on improving software design, reducing coupling, and maki
 
 [Liskov Substitution Principle (LSP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/LSP_PaymentGateway)
 
-[Interface Segregation Principle (ISP)]()
+[Interface Segregation Principle (ISP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/ISP_SmartHomeDevices)
 
-[Dependency Inversion Principle (DIP)]()
+[Dependency Inversion Principle (DIP)](https://github.com/Priyadhar29/SOLID_Principles/tree/main/DIP_LoggingSystem)
 
 ---
 
